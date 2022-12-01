@@ -16,7 +16,13 @@ if (a > b)
 {
     Console.Write("Число a больше числа b");
 }
-else
+
+if (a < b)
 {
-   Console.Write("Число b больше числа a"); 
+    Console.Write("Число b больше числа а");
+}
+
+if (a == b)
+{
+    Console.Write("Числа равны между собой");
 }
