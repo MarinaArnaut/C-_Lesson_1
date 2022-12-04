@@ -5,8 +5,10 @@
 
 Console.WriteLine("Напишите число a");
 int a = int.Parse(Console.ReadLine()!);
+
 Console.WriteLine("Напишите число b");
 int b = int.Parse(Console.ReadLine()!);
+
 Console.WriteLine("Напишите число c");
 int c = int.Parse(Console.ReadLine()!);
 
@@ -17,12 +19,12 @@ if(a>b || a>c)
     max = a;
 }
 
-else if(b>a || b>c)
+if(b>a || b>c)
 {
     max = b;
 }
 
-else 
+if(c>a || c>b) 
 {
     max = c;
 }
