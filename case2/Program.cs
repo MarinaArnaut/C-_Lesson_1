@@ -14,17 +14,13 @@ int c = int.Parse(Console.ReadLine()!);
 
 int max = a;
 
-if(a>b || a>c)
-{
-    max = a;
-}
 
-if(b>a || b>c)
+if(b>max)
 {
     max = b;
 }
 
-if(c>a || c>b) 
+if(c>max) 
 {
     max = c;
 }
